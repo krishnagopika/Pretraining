@@ -69,7 +69,7 @@ The above versioning applies to software development. As the number of updates g
 
 To solve all the above problems and to add some additional functionalities version control system is used.
 
-for aditional information refer [semver](https://semver.org/)
+for aditional information refer https://semver.org/
 
 Version Control System:
 
@@ -83,27 +83,110 @@ Consider a scenario where one of your friends has a borad game and in order to l
 To put it in technical terms, centralized VSC has a single central copy of project and programmers will access and commit their chnages form that copy. This arrangement is not prefered because if the central sever fails, the entire project fails. few examples for centralized VCS are  CVS Preforce and subversion.
 
 
-![Centralized](images/centralized.png)
+image
 
 In distributed VCS the codebase maintained in the server is coppied to every individual developers system. Even though a single user looses the data or a failure occurs in sungle system, the code is preserved. Few examples for distributed VCS are GIT and Mecurial.
 
-![Distributed](images/distributed.png)
+image
 
 
-for additional information refer the document [VCS](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+
+for additional information refer the document : https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
 GIT :
 
 As explained GIT is  a free and opensource distributed version control system. It is used to handle small to larg projects with speed and efficiency.
 
-To install GIT refere the document [Git download](https://git-scm.com/downloads)
+To install GIT refere the document https://git-scm.com/downloads.
 
 Once the installation procedure is completed, to check if GIT is installed in you system run the following command in the command prompt(windows) or terminal in caseof mac os or linix.
 
-``` git
+```
  git --version
 ```
 
 If git is installed, the output  should be the git version installed in your system.
 
-GIT can be accessed using command line, IDE and GUI.  In this documnt we will use commad line(Git Bash) and Visual Studio IDE. 
+GIT can be accessed using command line, IDE and GUI.  In this documnt we will use commad line tool GIT bash and VisualStudioCode IDE (VS code)
+
+To download VS code refer [VS Code Download](https://code.visualstudio.com/download)
+
+Open Git bash. The following are the initial settings to be configured:
+
+1. Name
+2. Email
+3. Default Editor 
+4. Line Ending
+
+
+### git config
+
+### git help
+
+
+### scope
+
+
+
+Step 1: To configer the name run the following command with your user name
+
+```
+git config --global user.name "user name"
+```
+
+<i><b>Note: user name is entered in double quoate because user name may conatin space.  </b></i>
+
+Step 2: email
+
+Step 3: core editor
+
+### Line ending
+
+
+Step 4: line ending
+
+
+### Git bash workflow
+
+image
+
+local
+
+stagging
+
+repository
+
+### Creating Repo
+### git.file
+### git add
+removing files from staging area
+### git commit
+Best practices to commit
+
+### .gitignore
+
+### git status
+
+short status
+
+### viewing changes
+
+### History
+
+### viewing commit
+
+### GIT hub and Git labs
+
+### cloning remote repository
+
+### Remote add
+
+### git ftech
+
+### git merge
+
+### git pull
+
+### git push
+
+### conflict resolution
