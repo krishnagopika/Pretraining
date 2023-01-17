@@ -69,7 +69,7 @@ The above versioning applies to software development. As the number of updates g
 
 To solve all the above problems and to add some additional functionalities version control system is used.
 
-for aditional information refer https://semver.org/
+for aditional information refer [semver](https://semver.org/)
 
 Version Control System:
 
@@ -91,17 +91,17 @@ image
 
 
 
-for additional information refer the document : https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+for additional information refer the document [VCS](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
 GIT :
 
 As explained GIT is  a free and opensource distributed version control system. It is used to handle small to larg projects with speed and efficiency.
 
-To install GIT refere the document https://git-scm.com/downloads.
+To install GIT refere the document [Git download](https://git-scm.com/downloads)
 
 Once the installation procedure is completed, to check if GIT is installed in you system run the following command in the command prompt(windows) or terminal in caseof mac os or linix.
 
-```
+``` git
  git --version
 ```
 
