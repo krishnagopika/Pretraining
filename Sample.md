@@ -83,12 +83,11 @@ Consider a scenario where one of your friends has a borad game and in order to l
 To put it in technical terms, centralized VSC has a single central copy of project and programmers will access and commit their chnages form that copy. This arrangement is not prefered because if the central sever fails, the entire project fails. few examples for centralized VCS are  CVS Preforce and subversion.
 
 
-image
+![Centralized]()
 
 In distributed VCS the codebase maintained in the server is coppied to every individual developers system. Even though a single user looses the data or a failure occurs in sungle system, the code is preserved. Few examples for distributed VCS are GIT and Mecurial.
 
-image
-
+![Distributed]()
 
 
 for additional information refer the document [VCS](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
