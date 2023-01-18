@@ -148,13 +148,7 @@ Step 4: line ending
 
 ### Git bash workflow
 
-
-
-local
-
-stagging
-
-repository
+![Git Workflow](images/GitRepo.png)
 
 ### Creating Repo
 ### git.file
