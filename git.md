@@ -216,7 +216,7 @@ git init
 
 ### git add
 
-Git add is used to add the the changes of working directory to the staging area. The following command is run.
+Git add is used to add the the changes of working directory to the staging area. 
 
 ```
 git add filename
