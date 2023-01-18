@@ -114,18 +114,11 @@ Open Git bash. The following are the initial settings to be configured:
 1. Name
 2. Email
 3. Default Editor 
-4. Line Ending
 
 
 ### git config
 
-Git config is used 
-
-### git help
-
-
-### scope
-
+Git config is used to configure the options line name, email etc.
 
 
 Step 1: To configer the name run the following command with your user name
@@ -136,24 +129,93 @@ git config --global user.name "user name"
 
 <i><b>Note: user name is entered in double quoate because user name may conatin space.  </b></i>
 
-Step 2: email
-
-Step 3: core editor
-
-### Line ending
+Step 2: To configer the email run the following command with your email.
 
 
-Step 4: line ending
+```
+git config --global user.email useremail
+```
 
+
+Step 3: core editor is the editor used to edit the configiration settings. When compared to git bash VS code better UI and its easy to use. To set VS Code as core editor run the following command in git bash.
+
+```
+git config --global core.editor "code  --wait"
+```
+
+- code is bin location of VS code saved in your system. `code` is configured in your system when VS code is installed.
+- `--wait` ensures that no action can be performed in git bash when VS code is opened for editing the git files.
+
+Step 4: To open the core edior run the following command
+
+```
+git config --gloabl -e
+```
 
 ### Git bash workflow
 
 ![Git Workflow](images/GitRepo.png)
 
-### Creating Repo
-### git.file
+**Local**: Local represents the files and folders in your local system.
+
+**Staging:** Staging is an intermediate area between local files and repository. The staging are is used to check all the chnages made and only the necessay changes are commited to the repository.
+
+**Repository:** GIT repository is the collection of all the files of projects of the versions. Local repository is th repository initialized in the local system. remote repository is the repository created in Git Hub, Git labs etc.
+
+### Creating a GIT repository
+
+Step 1: Create a folder in your system dedicated to the git repository.
+
+```
+mkdir name
+```
+
+Step 2: navigate to that directory
+
+```
+cd directory-name
+```
+
+Step 3: To initialise the repository enter the following command.
+
+```
+git init
+```
+
+- Once the repository is initialised `.git` file is created and it contains all the important information like git objects, hooks, HEAD and logs etc.
+- `.git` file should not edited because it might break the repository.
+- Normally `.git` file is hidden to avoid editing.
+
+
 ### git add
-removing files from staging area
+
+Git add is used to add the the chnages of working directory to the stagging area. The following command is run.
+
+```
+git add file name
+```
+To add multiple files that have same extention the following command is used
+
+```
+git add *.extention
+```
+
+the extention can be `txt` for text file, `java` for java files etc.
+
+For recursively adding all changes of all files the following command is used
+
+```
+git add .
+```
+
+Its better to avoid `git add .` because a project contains files that are huge and its not suggested to reccursively add those files to the stagging area.
+<br>
+To remove files from the stagging area the following command is used.
+
+```
+git restore --staged file name
+```
+
 ### git commit
 Best practices to commit
 
