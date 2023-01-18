@@ -34,7 +34,7 @@ This addition of the camera is a minor update because even without the camera th
 To improve the visibility and ease of image capturing a new movement should be added to rotate the drone left or right called Yaw. this upgradation is called a patch. Patch updates are interchangeable and consumers should update their software without hesitation. 
 
 
-1.1.1
+Now the version is 1.1.1
 
 ```
 Move Up/Down (Throttle)
@@ -46,7 +46,7 @@ Rotate  Left/Right ( Roll )
 
 Now consider that The purpose of the drone is changed and now the drone is used to spray pesticides instead of image capturing.
 
-The new update is 2.0.0
+With new update the version is 2.0.0
 
 
 ```
