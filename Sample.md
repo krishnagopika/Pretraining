@@ -329,7 +329,7 @@ git clone repository-link
 
 for addifitional information refer [git hub clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-### Remote add
+### remote add
 
 `git remote add` command will create a new connection record to a remote repository.
 
@@ -342,13 +342,35 @@ git remote add origin repositoy-link
 For additional information refer [git remote add](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
 
-### git ftech
+### git fetch
+
+git fetch is used to download the contents from remote repository.
+
+```
+git fetch
+```
 
 ### git merge
 
+git merge is used to merge the changes in remote repository to the local repository. git merge is alco used to integrate changes from another branch to current branch.
+
 ### git pull
+
+git pull is combination of git fetch and git merge. All the remote changes are downloaded and merged with local repository. Incase of any conflicts git merge will not be implemented.
+
+```
+git pull
+```
 
 ### git push
 
+git push is used upload the local repository content to the remote repository. After commiting all the changes the following command is implemented to psush the chnages to the reomte repository.
+
+```
+git push
+```
+
 ### git branch and git checkout
+
+
 
