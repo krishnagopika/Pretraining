@@ -1,3 +1,5 @@
+# Versioning
+
 Consider that you are working on an essay for school. Initially, you will create a draft and save it in your system, now after completing the initial draft you made some changes like adding new information, deleting irrelevant information and correcting grammatical errors in the file. After making all these changes you will save the document using save as and save it as draft 2. You might be thinking why should I replace the draft one with the updated draft?
 
 The reason might be that the verbose in the initial draft might be better or the information that you deleted might be important. So it's better to save the file as draft two.  Now consider it is a folder with multiple files, It becomes complex to store multiple drafts of all the files in the folder, Now consider that it's a group assignment and multiple people are working on the same files. Now it becomes even more complex.  After a while, it becomes hard to figure out which file contains what information and what changes were made.
@@ -71,7 +73,7 @@ To solve all the above problems and to add some additional functionalities versi
 
 for additional information refer to [semver](https://semver.org/)
 
-Version Control System:
+# Version Control System
 
 Version control systems are classified into two types.
 
@@ -91,7 +93,7 @@ In distributed VCS the codebase maintained in the server is copied to every indi
 
 for additional information refer to [git version contol](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
-GIT :
+# GIT
 
 As explained GIT is a free and open-source distributed version control system. It is used to handle small to large projects with speed and efficiency.
 
@@ -161,6 +163,7 @@ git config --gloabl -e
 3. `--local`: The configuration set using system scope sets the non-default behaviour for that specific repository.
 
 
+## Basic git commands
 
 ### git help
 
