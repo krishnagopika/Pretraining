@@ -181,7 +181,7 @@ git command-name --h
 
 ### Git bash workflow
 
-![Git Workflow](images/GitWorkflow.svg)
+![Git Workflow](images/GitRepo.png)
 
 **Working directory**: It represents the files and folders in your local system.
 
@@ -377,7 +377,7 @@ git push
 
 A branch is an independent line of development in git.
 
-![Git Branches](images/gitWorlflow.png)
+![Git Branches](images/GitWorkflow.svg)
 
 In every project, there is a main/master branch. It is the initial branch created along with the git repository. In git workflow, a develop or dev branch is used to protect the information in the main branch. Along with main and dev branches, feature branches are created by users to work on the project. Feature branches are branched from dev branches and all the changes made by feature branches are incorporated into the main branch via the dev branch but never directly to the main branch. 
 
