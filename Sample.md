@@ -340,3 +340,5 @@ For additional information refer [git remote add](https://docs.github.com/en/get
 
 ### git push
 
+### git branch and git checkout
+
