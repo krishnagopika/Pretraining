@@ -181,7 +181,7 @@ git command-name --h
 
 ### Git bash workflow
 
-![Git Workflow](images/GitRepo.png)
+![Git Workflow](images/GitWorkflow.svg)
 
 **Working directory**: It represents the files and folders in your local system.
 
