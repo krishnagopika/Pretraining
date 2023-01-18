@@ -340,4 +340,3 @@ For additional information refer [git remote add](https://docs.github.com/en/get
 
 ### git push
 
-### conflict resolution
