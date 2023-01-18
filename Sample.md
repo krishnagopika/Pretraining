@@ -119,6 +119,8 @@ Open Git bash. The following are the initial settings to be configured:
 
 ### git config
 
+Git config is used 
+
 ### git help
 
 
@@ -146,7 +148,7 @@ Step 4: line ending
 
 ### Git bash workflow
 
-image
+
 
 local
 
