@@ -69,7 +69,7 @@ The above versioning applies to software development. As the number of updates g
 
 To solve all the above problems and to add some additional functionalities version control system is used.
 
-for aditional information refer https://semver.org/
+for aditional information refer [semver](https://semver.org/)
 
 Version Control System:
 
@@ -82,22 +82,20 @@ Consider a scenario where one of your friends has a borad game and in order to l
 
 To put it in technical terms, centralized VSC has a single central copy of project and programmers will access and commit their chnages form that copy. This arrangement is not prefered because if the central sever fails, the entire project fails. few examples for centralized VCS are  CVS Preforce and subversion.
 
-
-image
+![Centralized]()
 
 In distributed VCS the codebase maintained in the server is coppied to every individual developers system. Even though a single user looses the data or a failure occurs in sungle system, the code is preserved. Few examples for distributed VCS are GIT and Mecurial.
 
-image
+![Distributed]()
 
 
-
-for additional information refer the document : https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+for additional information refer [git version contol](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
 GIT :
 
 As explained GIT is  a free and opensource distributed version control system. It is used to handle small to larg projects with speed and efficiency.
 
-To install GIT refere the document https://git-scm.com/downloads.
+To install GIT refere [git download](https://git-scm.com/downloads).
 
 Once the installation procedure is completed, to check if GIT is installed in you system run the following command in the command prompt(windows) or terminal in caseof mac os or linix.
 
