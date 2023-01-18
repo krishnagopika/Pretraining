@@ -372,5 +372,9 @@ git push
 
 ### git branch and git checkout
 
+A branch is an independent line of development in git.
+
+![Git Branches]()
+
 
 
