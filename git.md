@@ -183,7 +183,7 @@ git command-name --h
 
 ![Git Workflow](images/GitRepo.png)
 
-**Local**: Local represents the files and folders in your local system.
+**Working directory**: It represents the files and folders in your local system.
 
 **Staging:** Staging is an intermediate area between local files and the repository. The staging is used to check all the changes made and only the necessary changes are committed to the repository.
 
