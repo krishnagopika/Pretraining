@@ -154,6 +154,14 @@ git config --gloabl -e
 
 ### Scopes
 
+`--global` repsents the scope of git configuration. Git has following scopes:
+
+1. `--global`: The configuration set using global scope sets the non-default beahviour for all the repositoris of a specific user.
+2. `--system`: The configuration set using system scope sets the non-default beahviour for every user of the system and all their repositories.
+3. `--local`: The configuration set using system scope sets the non-default beahviour for that specific repository.
+
+
+
 ### git help
 
 If you get stuck anywhere in git or if you need any information about any git command `git help` provides detaild inofrmation of git commands. Run the following command
@@ -178,7 +186,7 @@ git command-name --h
 
 **Repository:** GIT repository is the collection of all the files of projects of the versions. Local repository is th repository initialized in the local system. remote repository is the repository created in Git Hub, Git labs etc.
 
-### Creating a GIT repository
+### Creating a Git repository
 
 Step 1: Create a folder in your system dedicated to the git repository.
 
