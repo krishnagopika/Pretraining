@@ -311,10 +311,26 @@ Once the account is created, to create a new repository refer [git repositoty cr
 
 ### git clone
 
+`git clone` is used to create a copy of existing repository. It can be a remote repository or a local repository. To create a copy of remote repository, copy the repository link(http or ssh) from remote repository and run the following command.
 
+```
+git clone repository-link
+```
 
+for addifitional information refer [git hub clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ### Remote add
+
+`git remote add` command will create a new connection record to a remote repository.
+
+the following command is run to add connect a remote git repository
+
+```
+git remote add origin repositoy-link
+```
+
+For additional information refer [git remote add](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
+
 
 ### git ftech
 
