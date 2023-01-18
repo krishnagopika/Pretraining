@@ -152,6 +152,8 @@ Step 4: To open the core edior run the following command
 git config --gloabl -e
 ```
 
+### Scopes
+
 ### git help
 
 If you get stuck anywhere in git or if you need any information about any git command `git help` provides detaild inofrmation of git commands. Run the following command
