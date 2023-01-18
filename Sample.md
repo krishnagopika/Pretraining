@@ -374,7 +374,35 @@ git push
 
 A branch is an independent line of development in git.
 
-![Git Branches]()
+![Git Branches](images/gitWorlflow.png)
+
+In every project there is a main/master branch. It is the initial branch crealted along with the git repository. In git work flow a develop or dev branch is used to protect the information in main branch. Along with main and dev branches feature branches are created by users to work on the project. Feature branches are branched from dev branches and all the changes made by feature branches are incorporated to the main branch via the dev branch but never directly to the main branch. 
+
+
+To create a branch run the dollowing command
+
+```
+git branch branch-name
+```
+
+To create a dev branch `git branch dev` command is run. Feature branches are created from dev branch, to create a branch from a specific branch the following command is used.
+
+```
+git branch branch-name from-branch
+```
+To create feature branch `git branch feature dev` command is run.
+
+`git checkout` is used to navigate between the git branches. The following command is used to checkout to a specific branch.
+
+```
+git checkout branch-name
+```
+
+For additional information about git commands refer [git commands](https://git-scm.com/docs)
+
+
+
+
 
 
 
