@@ -320,6 +320,8 @@ A bit is a smallest unit of data in computer system. It has a single value `0` o
 
 Example:
 
+2
+
 ```
 
 ```
@@ -354,6 +356,6 @@ Example:
 
 ```
 
-4. `~`:
+4. `~`: 
 
 
