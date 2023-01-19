@@ -19,15 +19,60 @@ This approach of using informal language to develop algoriths is called Pseudoco
 
 The difference between humans and computers is that computers are very rigid and even a small mistake or deviation will not give the desired results. Even in high-level programming languages like Java, Python, Java-Script and C/C++ etc the programmer should follow the syntax. When some one starts will programming its easy to start with pseudocode. Because in pseudocode one has the flexibilty to create their own rules insted of following the strict syntax rules like semicolon, curly braces etc.
 
-## Steps to write pseudo-code
+## Pseudocode Standards
+
+Psuedocode standards are the constructs used to represent the basic actions performed in a program.
+
+Evary pseudocode starts with START and ends with END.
+
+Before entering the constructs, one should know what are the common words used to reperesent basic actions in a program
+
+Input: READ, OBTAIN, GET
+Output: PRINT, DISPLAY, SHOW
+Compute: COMPUTE, CALCULATE, DETERMINE
+Initialize: SET, INIT
+Add one: INCREMENT, BUMP
+
+These are not fixed words but it is suggested to use them so that everyone can understand the pseudocode easily.
+
+1. Sequence: One task is performed after other task in a linear progression.
+
+Example: 
+
+Consider a program to take input of two numbers and print the sum.
+
+```
+START
+READ a,b
+sum = a+b
+Print sum
+END
+```
+In the above statement line 2,3 and 4 are sequence statemnts.
 
 
 
-      
-    
 
+2. IF-THEN-ELSE
+
+Example:
+3. Loop
+  - WHILE
+  Example:
+  - FOR
+  Example:
+  - REPEAT-UNTIL
+  Example:
+
+4. CASE
+
+Example:
+ 
+In programming:
 
 # Flow Chart
+
+
 
 # Basic Programming
 
