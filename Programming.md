@@ -318,6 +318,7 @@ A bit is a smallest unit of data in computer system. It has a single value `0` o
 | 0             | 1             | 0      |
 | 0             | 0             | 0      |
 
+
 2. `|`: `OR` copies 1 if either of the bits in same position in both patterns is 1. Copies 0 if both bits are 0.
 
 | Input bit one | Input bit two | Result |
@@ -340,9 +341,10 @@ A bit is a smallest unit of data in computer system. It has a single value `0` o
 
 4. `~`: `NOT` Flips 0 to 1 and ` to 0.
 
-5. `<<`: Consider a<<b, a's value is moved left by the number of bits specified by the b. It is equivalent to 2<sup>b</sup>
+5. `<<`: Consider a<<b, a's value is moved left by the number of bits specified by the b. It is equivalent to multipling a by 2<sup>b</sup>
 
 
 6. `>>`:Consider a>>b, a's value is moved right by the number of bits specified by the b. It is equivalent to dividing a by 2<sup>b</sup>
+
 
 
