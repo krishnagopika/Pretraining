@@ -9,9 +9,9 @@ To solve a problem an approach is necessay. Algorithm is procedure for solving p
 Before even starting code a programmer can come up with the algorithm using the informal language. For example if a person's age is above or equal to 18, they are eligibile to vote. The informal approch is
 
 ```
-If age is greater then or equal to 18
+IF age is greater then or equal to 18 THEN
      Print " Eligible to vote"
-else
+ELSE
      Print "Not Eligible to vote"
 ```
 
@@ -23,7 +23,7 @@ The difference between humans and computers is that computers are very rigid and
 
 Psuedocode standards are the constructs used to represent the basic actions performed in a program.
 
-Evary pseudocode starts with START and ends with END.
+Evary pseudocode starts with START/BEGIN and ends with END.
 
 Before entering the constructs, one should know what are the common words used to reperesent basic actions in a program
 
@@ -50,27 +50,174 @@ END
 ```
 In the above statement line 2,3 and 4 are sequence statemnts.
 
+2. IF-THEN-ELSE: It is used to choose a course of action based on a condiftion.
 
+```
+IF condition THEN
+    Sequence
+ELSE
+    Sequence
+END IF
+```
 
+Example: 
 
-2. IF-THEN-ELSE
+A student will pass the examination if the score is above 60.
+
+```
+START
+IF marks is greater than or equal to 60 THEN
+     Print "PASSED"
+ELSE 
+     Print "Failed"
+END IF
+
+END
+```
+3. CASE: It is used to execute squeunces based in conditions. All the conditions are mutually excusive.
+
+```
+CASE expression OF
+   condition 1 : sequence 1
+   condition 2 : sequence 2
+   .
+   .
+   .
+   condition n : sequence n
+OTHERS:
+   default sequence
+END CASE
+```
+
+Example: Print the grade for the given exam score.
+
+```
+START
+CASE score of:
+    greater than or equal to 90: PRINT "A"
+    greater than or equal to 80 and less than 90: "B"
+    greater than or equal to 70 and less than 80: "C"
+    greater than or equal to 60 and less than 70: "D"
+    less than 60: "F"
+OTHERS
+   PRINT "Please enter the score in range 0 to 100 "
+END CASE  
+```
+4. Loop: It is used to execute a sequence multiple times until a condition fails.
+
+- WHILE: It is used to specify a loop with a condition at top.
+  
+Example:
+  
+To print sum of natural numbers from 1 to n:
+
+```
+START
+READ n
+WHILE n greater than 0
+    sum = sum + n
+    DECREMENT n
+END WHILE
+PRINT sum
+END
+```
+
+- FOR: It is used to create a loop for iterating the sequence specific number of times. It is also called as counting loop.
 
 Example:
-3. Loop
-  - WHILE
-  Example:
-  - FOR
-  Example:
-  - REPEAT-UNTIL
-  Example:
 
-4. CASE
+Print the numbers in the range 1 to n.
 
-Example:
- 
-In programming:
+```
+START
+READ n
+
+FOR i=1 to n
+   PRINT n
+END FOR
+END
+```
+
+- REPEAT-UNTIL: It is similar to while loop but the condition is placed at the bottom of the loop.
+
+Example: A program to print sum of numbers in the range 1 to n.
+
+```
+START
+READ n
+REPEAT
+  sum= sum + n
+  DECREMENT n
+UNTIL n is equal to zero
+END
+```
+5. Nested constructs: The constructs can be enbended within each other in a program
+
+Example: Print even numbers in range 1 to n
+
+```
+START
+READ n
+FOR i= 1 to n:
+  IF i mod 2 is equal to 0
+      PRINT i
+  END IF
+END FOR
+END
+```
+
+6. FUNCTION: In programming every task is written as a function. A function can be called multiple times in a program. To put it simply function is a reusable block of code.
+
+Example: Print product of two numbers
+
+```
+Function print product
+    READ a, b
+    product = a*b
+    PRINT product
+END FUNCTION
+```
+
+7. PROGRAM: All the functions are wrapped under a program to improve redability.
+
+```
+PROGRAM name
+  FUNCTION f1
+  FUNCTION f2
+  FUNCTION f3
+  .
+  .
+  .
+  FUNCTION fn
+END
+```
+
+8. Exception handiling: An exception is an evemt that disrupts the normal flow of the program. When excpetion occurs in a program a block of code is executed in responce to the exception.
+
+```
+START
+  statements
+EXCEPTION
+    WHEN exception type
+        statements to handle exceptions
+    WHEN exception type
+        statements to handle exceptions
+END
+```
+
+There are no rules for writing a pseudocode. It is meant to be human redable and it should convey the right meaning.
 
 # Flow Chart
+
+Flow chart is a diagram that represents an algorithm. In flow chart different shapes/boxes are used to reperent different statements in a program and all the shapes/boxes are connected in the order of program execution.
+
+![Flow Chart Symbols]()
+
+
+
+
+
+
 
 
 
