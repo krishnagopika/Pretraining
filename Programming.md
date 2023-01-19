@@ -320,6 +320,10 @@ A bit is a smallest unit of data in computer system. It has a single value `0` o
 
 Example:
 
+```
+
+```
+
 2. `|`:
 
 | Input bit one | Input bit two | Result |
@@ -331,6 +335,25 @@ Example:
 
 Example:
 
-3. `^`:
+```
+
+```
+
+3. `^`: 
+
+| Input bit one | Input bit two | Result |
+| ------------- | ------------- | ------ |
+| 1             | 1             | 0      |
+| 1             | 0             | 1      |
+| 0             | 1             | 1      |
+| 0             | 0             | 0      |
+
+Example:
+
+```
+
+```
+
+4. `~`:
 
 
