@@ -50,7 +50,7 @@ END
 ```
 In the above statement line 2,3 and 4 are sequence statemnts.
 
-2. IF-THEN-ELSE: It is used to choose a course of action based on a condiftion.
+2. IF-THEN-ELSE: It is used to choose a course of action based on a condiftion. In programming laguages we have simililar syantax `if` and `else`.
 
 ```
 IF condition THEN
@@ -74,7 +74,7 @@ END IF
 
 END
 ```
-3. CASE: It is used to execute squeunces based in conditions. All the conditions are mutually excusive.
+3. CASE: It is used to execute squeunces based in conditions. All the conditions are mutually excusive. In programming languages we have similar syntax for `switch`.
 
 ```
 CASE expression OF
@@ -105,7 +105,7 @@ END CASE
 ```
 4. Loop: It is used to execute a sequence multiple times until a condition fails.
 
-- WHILE: It is used to specify a loop with a condition at top.
+- WHILE: It is used to specify a loop with a condition at top. In programming languages we `while` loop similar to this.
   
 Example:
   
@@ -122,7 +122,7 @@ PRINT sum
 END
 ```
 
-- FOR: It is used to create a loop for iterating the sequence specific number of times. It is also called as counting loop.
+- FOR: It is used to create a loop for iterating the sequence specific number of times. It is also called as counting loop. In programming languages we `for` loop similar to this.
 
 Example:
 
@@ -138,7 +138,7 @@ END FOR
 END
 ```
 
-- REPEAT-UNTIL: It is similar to while loop but the condition is placed at the bottom of the loop.
+- REPEAT-UNTIL: It is similar to while loop but the condition is placed at the bottom of the loop. In programming languages we `do while` loop similar to this.
 
 Example: A program to print sum of numbers in the range 1 to n.
 
@@ -267,15 +267,6 @@ A class is a template of methods and variables. The naming convention for class 
 
 These opearators are used for comparision and they return either true or false based on the result.
 
-
-
-
-
-
-
-
-### Assignment
-
 | Symbol | Operator              | Usage | Explanation                                                                                    |
 | ------ | --------------------- | ----- | ---------------------------------------------------------------------------------------------- |
 | \==    | equal                 | a==b  | If two operands are equal returns true, else returns false                                     |
@@ -285,19 +276,61 @@ These opearators are used for comparision and they return either true or false b
 | \>=    | greater than or equal | a>=b  | If left operand is greater than or equal to the right operand returns true, else returns false |
 | <=     | less than or equal    | a<=b  | If left operand is less than or equal to the right operand returns true,  else returns false   |
 
+### Assignment
+
+| Symbol | Operator                | Usage | Explanation                                       |
+| ------ | ----------------------- | ----- | ------------------------------------------------- |
+| \=     | assignment              | a=b   | Assigns b right operand value to the left operand |
+| +=     | add and assignent       | a+=b  | Implies a=a+b                                     |
+| \-=    | subtract and assignment | a-=b  | Implies a=a-b                                     |
+| \*=    | multiply and assignment | a\*=b | Implies a=a\*b                                    |
+| /=     | divide and assignment   | a/=b  | Implies a=a/b                                     |
+| %=     | modulus and assignment  | a%=b  | Implies a=a%b                                     |
 
 ### Logical
 
 These values take boolean value as input and returns true or false as output.
 
+| Symbol | Operator    | Usage | Explanation                                                                                          |
+| ------ | ----------- | ----- | ---------------------------------------------------------------------------------------------------- |
+| &&     | logical and | a&&b  | If conditions a and b are true it returns true. If either of the condition is false it returns false |
+| ||     | logical or  | a||b  | If conditions a or b are true it returns true. If either of the condition is false it returns false  |
+| !      | logical not | !a    | If a is true returns false and if a is false returns true                                            |
+
 ### Increment/Decrement
 
+| Operator       | Usage | Explanation                              |
+| -------------- | ----- | ---------------------------------------- |
+| pre increment  | ++a   | Increments a by 1 before using the value |
+| post increment | a++   | Increments a by 1 after using the value  |
+| pre decrement  | \--a  | Decrements a by 1 before using the value |
+| post decrement | a--   | Decrements a by 1 after using the value  |
+
 ### Bitwise
+A bit is a smallest unit of data in computer system. It has a single value `0` or `1` called binary values. Bitwise operators compare two bit patterns and return the binary value. 
+
+1. `&`: If both bits in same position of a bit pattern are 1 copies 1. If either of the bits in both patterns is 0 copies 0.
+
+| Input bit one | Input bit two | Result |
+| ------------- | ------------- | ------ |
+| 1             | 1             | 1      |
+| 1             | 0             | 0      |
+| 0             | 1             | 0      |
+| 0             | 0             | 0      |
+
+Example:
+
+2. `|`:
+
+| Input bit one | Input bit two | Result |
+| ------------- | ------------- | ------ |
+| 1             | 1             | 1      |
+| 1             | 0             | 1      |
+| 0             | 1             | 1      |
+| 0             | 0             | 0      |
+
+Example:
+
+3. `^`:
 
 
-
-
-
-## If else and switch
-
-## While for and do While
