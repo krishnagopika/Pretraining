@@ -211,7 +211,13 @@ There are no rules for writing a pseudocode. It is meant to be human redable and
 
 Flow chart is a diagram that represents an algorithm. In flow chart different shapes/boxes are used to reperent different statements in a program and all the shapes/boxes are connected in the order of program execution.
 
-![Flow Chart Symbols]()
+![Flow Chart Symbols](images/FlowChart.gif)
+
+Example: A program to print the even numbers in the range 1 to n.
+
+![Even Numbers Flow Chart]()
+
+
 
 
 
