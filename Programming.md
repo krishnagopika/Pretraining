@@ -29,8 +29,6 @@ The difference between humans and computers is that computers are very rigid and
 
 # Flow Chart
 
-# OOP vs Functional
-
 # Basic Programming
 
 ## Input
