@@ -340,8 +340,9 @@ A bit is a smallest unit of data in computer system. It has a single value `0` o
 
 4. `~`: `NOT` Flips 0 to 1 and ` to 0.
 
-5. `<<`:
+5. `<<`: Consider a<<b, a's value is moved left by the number of bits specified by the b. It is equivalent to 2<sup>b</sup>
 
-6. `>>`:
+
+6. `>>`:Consider a>>b, a's value is moved right by the number of bits specified by the b. It is equivalent to dividing a by 2<sup>b</sup>
 
 
