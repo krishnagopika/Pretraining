@@ -215,17 +215,7 @@ Flow chart is a diagram that represents an algorithm. In flow chart different sh
 
 Example: A program to print the even numbers in the range 1 to n.
 
-![Even Numbers Flow Chart]()
-
-
-
-
-
-
-
-
-
-
+![Even Numbers Flow Chart](images/EvenFlowChart.PNG)
 
 # Basic Programming
 
