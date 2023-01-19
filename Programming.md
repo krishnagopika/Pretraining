@@ -17,7 +17,7 @@ else
 
 This approach of using informal language to develop algoriths is called Pseudocode. Pseudo means fake so Pseducode translates to fakecode written in a form that humans can easily understand.
 
-The difference between humans and computers is that computers are very rigid and even a small mistake or deviation will not give the desired results. Even in high-level programming languages like Java, Python, Java-Script and C/C++ etc the programmer should follow the syntax. When some one starts will programming its easy to start with pseudocode. Because in pseudocode one has the flexibilty to create their own rules insted of following the rigid programming rules like semicolon, curly braces etc.
+The difference between humans and computers is that computers are very rigid and even a small mistake or deviation will not give the desired results. Even in high-level programming languages like Java, Python, Java-Script and C/C++ etc the programmer should follow the syntax. When some one starts will programming its easy to start with pseudocode. Because in pseudocode one has the flexibilty to create their own rules insted of following the strict syntax rules like semicolon, curly braces etc.
 
 
 
