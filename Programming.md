@@ -309,7 +309,7 @@ These values take boolean value as input and returns true or false as output.
 ### Bitwise
 A bit is a smallest unit of data in computer system. It has a single value `0` or `1` called binary values. Bitwise operators compare two bit patterns and return the binary value. 
 
-1. `&`: If both bits in same position of a bit pattern are 1 copies 1. If either of the bits in both patterns is 0 copies 0.
+1. `&`: `AND` copies 1 if both bits in same position of a bit pattern are 1. Copies 0 if either of the bits in both patterns is 0.
 
 | Input bit one | Input bit two | Result |
 | ------------- | ------------- | ------ |
@@ -318,15 +318,7 @@ A bit is a smallest unit of data in computer system. It has a single value `0` o
 | 0             | 1             | 0      |
 | 0             | 0             | 0      |
 
-Example:
-
-2
-
-```
-
-```
-
-2. `|`:
+2. `|`: `OR` copies 1 if either of the bits in same position in both patterns is 1. Copies 0 if both bits are 0.
 
 | Input bit one | Input bit two | Result |
 | ------------- | ------------- | ------ |
@@ -335,13 +327,8 @@ Example:
 | 0             | 1             | 1      |
 | 0             | 0             | 0      |
 
-Example:
 
-```
-
-```
-
-3. `^`: 
+3. `^`: `XOR` copies the bit that is present in both bit patterns else copies 1.
 
 | Input bit one | Input bit two | Result |
 | ------------- | ------------- | ------ |
@@ -350,12 +337,11 @@ Example:
 | 0             | 1             | 1      |
 | 0             | 0             | 0      |
 
-Example:
 
-```
+4. `~`: `NOT` Flips 0 to 1 and ` to 0.
 
-```
+5. `<<`:
 
-4. `~`: 
+6. `>>`:
 
 
