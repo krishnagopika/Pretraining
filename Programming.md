@@ -1,4 +1,4 @@
-# Psudocode
+# Pseudocode and Algorithm
 
 # Flow Chart
 
