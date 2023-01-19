@@ -217,16 +217,87 @@ Example: A program to print the even numbers in the range 1 to n.
 
 ![Even Numbers Flow Chart](images/EvenFlowChart.PNG)
 
-# Basic Programming
+# Basic Programming Concepts
 
-## Input
+Every programming language has some common concepts which are necessary to execute a program and get the desired output.
 
-## Output
+## variables
+
+A variable is an entity that contains a value. The value can be a Number, Deciaml, Character and String. As name implies varibles are not fixed and a new value can be stored anytime in the program. The naming convention for variables is camel case. in camel case the fist letter is samll and as words are added they are capitalized.
+
+Examples:
+
+```
+age = 18
+userName = "Michel Scott"
+grade = 'A'
+percentage = 94.9
+```
+
+As metioned in the example numbers and decimals are written without any quotes and Strings are embended in double quotes and characters are embended in single quotes.
+
+<i><b>Note:</b>A programming language also contains constants that are fixed values</i>
+
+## Function and Method
+
+**Function:** A function is a reusable code. It can take the input and operate on the inout and return data. It is the concept of functional programming language
+
+**Method:** A method works similar to function. The difference is a method is associated to the instance of an object. It is related to object oriented programming.
+
+The naming convention for functions and methods is camel case.
+
+## Class
+
+A class is a template of methods and variables. The naming convention for class is Pascal case. Every word in the name is capitalized.
 
 ## Operators
 
-## variables and methods and class
+### Arthamatic
+
+| Symbol | Operator       | Usage | Explanation                                                                  |
+| ------ | -------------- | ----- | ---------------------------------------------------------------------------- |
+| +      | Addition       | a+b   | Adds the values on either side of the operator                               |
+| \-     | Subtraction    | a-b   | Subtracts the right-hand value from the left-hand value                      |
+| \*     | Multiplication | a\*b  | Multiplies the values on either side of the operator                         |
+| /      | Division       | a/b   | Divides the left-hand value to the righthand value                           |
+| %      | Modulus        | a%b   | Divides the left-hand value to the righthand value and returns the remainder |
+
+
+### Relational
+
+These opearators are used for comparision and they return either true or false based on the result.
+
+
+
+
+
+
+
+
+### Assignment
+
+| Symbol | Operator              | Usage | Explanation                                                                                    |
+| ------ | --------------------- | ----- | ---------------------------------------------------------------------------------------------- |
+| \==    | equal                 | a==b  | If two operands are equal returns true, else returns false                                     |
+| !=     | not equal             | a!=b  | If two operands are not equal returns true, else returns false                                 |
+| \>     | greater than          | a>b   | If left operand is greater than right operand returns true,  else returns false                |
+| <      | less than             | a<b   | if left operand is less than right operand returns true, else returns false                    |
+| \>=    | greater than or equal | a>=b  | If left operand is greater than or equal to the right operand returns true, else returns false |
+| <=     | less than or equal    | a<=b  | If left operand is less than or equal to the right operand returns true,  else returns false   |
+
+
+### Logical
+
+These values take boolean value as input and returns true or false as output.
+
+### Increment/Decrement
+
+### Bitwise
+
+
+
+
 
 ## If else and switch
 
-## while for and do while
+## While for and do While
