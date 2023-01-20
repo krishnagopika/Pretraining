@@ -6,29 +6,23 @@ So, the flipkart founders tried to address this customer problem by describing a
 a starting point for the programming team to develop the necessary code and functionality for the flipkart's website. 
 So, they developed a program to provide a solution the users or customers like me.
 
-<p align="center"><img src="https://www.onlc.com/blog/wp-content/uploads/2017/07/ONLC-2017-4.png" width="300" height="170"/>
-
 In this story, programming is the process of creating a set of instructions that instructs the computer to perform a task.
 
 ## Programmer
 For the same scenario, let's look in detail as to what the programmer does to complete this website.
 As a programmer, they will create a search bar where the user can enter the product name, and also add filters like category, price, brand etc. Then using the user's input, they will query the database and return the matching products to the user. These are the basic functionalities needed to run an e-commerce website.
 
-<p align="center"><img src="https://static.vecteezy.com/system/resources/previews/004/865/921/original/programmer-people-concept-use-laptop-and-programming-code-program-icon-spreading-with-modern-flat-style-free-vector.jpg" width="300" height="170"/>
-
 In this story, a programmer is defining the solution for the user story and also how they are going to implement the solution for the user's goal.
 
 ## Machine language
 As humans, we are equipped with the ability to learn multiple languages. Sadly, computers don't have that ability. They are designed in a way to read 0s and 1s. Yes, you are right. Computers convert everything we say into 0s and 1s and that's what we call as machine language. But imagine telling a computer to design a website just by inputing 0s and 1s. It's impossible for a human to do that, right? So, we designed several highly programmer friendly languages which can be converted in such a way that the computer can understand. How do they convert? We will be covering them shortly.
   
-<p align="center"><img src="http://static1.squarespace.com/static/5786bad43e00befe66ecb0f3/t/58e6689b9f7456d6ec31bfc2/1491495072353/?format=1500w" width="400" height="165"/>
+![Binary](images/Binary.png)
 
 In this story, a machine language is described as a\ language understood by a computer. It is very difficult to understand for humans, but it is the only thing that the computer can work with. All programs and programming languages eventually gets converted and runs in machine language.  
 
 ## Programming language
 Now, how do the same programmer develop such a website from sratch. He or she needs to communicate with the computer who doesn't speak our human language. So, instead of computer learning English. It's humans who have to learn the computer language, which is also called the programming language.
-
-<p align="center"><img src="https://miro.medium.com/max/1400/1*HLGtY6O2vUHqIyEbWdmBgA.jpeg" width="400" height="165"/>
 
 In this story, a programming language is described as a specific language in which a programmer is expected to solve user's problem.
 
@@ -37,7 +31,7 @@ A high-level programming language is a programming language that is designed to 
 
 Machine language, on the other hand, is a low-level programming language that is executed directly by the computer's hardware. It consists of binary code, which is a series of 0s and 1s that the computer's processor can understand.
 
-<p align="center"><img src="https://programmerbay.com/wp-content/uploads/2019/08/high-level-language-and-low-level-language.png" width="400" height="175"/>  
+![High vs low](images/high-vs-low.png)
 
 To convert a program written in a high-level language to machine language, a compiler or interpreter is used. We will discuss them in the next unit.
 
@@ -47,7 +41,7 @@ It's important to note that high-level programming languages have many features 
   
 In our scenario, our programmer who has the knowledge of creating a website using a programming language, creates a program in an environment which includes a compiler. It's the compiler's job to convert a human readable code to machine readable code for the computer to run the program.
   
-<p align="center"><img src="https://i0.wp.com/theintactone.com/wp-content/uploads/2019/10/topic-4.1.png?resize=1096%2C239&ssl=1" width="400" height="125"/>
+![Compiler](images/compiler.png)
 
 In this story, A compiler is a program that takes the source code written in a high-level language and converts it into machine code. This machine code can then be executed directly by the computer's processor.
   
@@ -56,7 +50,7 @@ In this story, A compiler is a program that takes the source code written in a h
 If compiler can convert the high level language to machine level language. What is the role of interpreter? To understand it, we need to analyze why there is need for compiler and interpreter. 
 A compiled program runs faster than an interpreted program but interpreter directly runs and executes the high level language without converting into machine level language.
   
-<p align="center"><img src="https://kvblycluster.files.wordpress.com/2020/09/image-12.png" width="400" height="125"/>
+![Interpreter](images/Interpreter.png)
  
 While some prefer compiler over interpreter for its efficiency and faster execution, it's has a specific target and cannot be used cross-platform. To solve this portability issue, interpreter is used.
   
@@ -64,22 +58,16 @@ In this story, An interpreter runs and executes the high-level code directly lin
 
 ## Programming structure
 The next thing a programmer has to work on is the programming structure which is also described as the program layout. This can include things like indentation, commenting, and the use of functions and modules.
-
-<p align="center"><img src="https://cdn.lynda.com/course/656821/656821-1552421169870-16x9.jpg" width="400" height="125"/>
  
 A well-structured program is easy to read, understand and modify, while a poorly structured program can be difficult to work with. Good programming practices, such as using meaningful variable names and commenting, can also contribute to the overall structure of a program.
 
 ## Programming logic
 Along with the program structure, the programmer needs to crack the problem logic to get the desired output or result, in this case, he/she needs to provide the right programming logic to build the website based on the user's needs.
-  
- <p align="center"><img src="https://indi.tech/wp-content/uploads/2022/03/Screenshot-2022-03-24-220252-e1648184715258.png" width="450" height="200"/>
 
 In this story, programming logic can be described as a set of principles that aligns the elements in a way for the computer to perform required tasks.
 
 ## Procedural programming
 Let's consider a different scenario. As a customer support for a regional bank, I want to be able to input a customer's account information to withdraw or deposit money from their account, so that I can properly assist customer with their financial transactions. This can be accomplished using a procedural programming approach, in which the program is broken down into a series of specific steps or procedures that are executed in a specific order.
-   
- <p align="center"><img src="http://blog.cws.net/hubfs/blog-files/cws-blog-kids-coding.png" width="450" height="200"/>
 
 ## Functional programming
    
@@ -89,7 +77,7 @@ As a user, I want to be able to add two numbers together, so that I can perform 
 Input: 2 numbers
 Output: The sum of the 2 numbers.  
 
- <p align="center"><img src="https://miro.medium.com/max/845/1*GeUXfnDVi1LkcUnYbr3Qlw.png" width="450" height="200"/>
+![Proc vs Func](images/proc-vs-func.png)
    
    
 In this story, It includes a description of the problem that the program is meant to solve, as well as the specific inputs and outputs that the program should have. 
@@ -103,7 +91,7 @@ OOP is commonly used in many programming languages like Java, C++, Python, C#, e
    
 ### Abstraction
    
- <p align="center"><img src="https://media.istockphoto.com/id/1066924602/vector/atm.jpg?s=612x612&w=0&k=20&c=80cKGCXMAgnqHaFngYZuCpO7CzfJyqIi9uvt3jTOIYk=" width="300" height="170"/>
+![ATM](images/ATM.png)
    
 Imagine a scenario where we all use an ATM machine for cash withdrawal, money transfer, retrieve min-statement, etc in our daily life. But we don't know internally what things are happening inside ATM machine when you insert ATM card for performing any kind of operations. This is a child-level explanation to what abstraction is.
    
@@ -388,7 +376,7 @@ There are no rules for writing a pseudocode. It is meant to be human-readable an
 
 The flow chart is a diagram that represents an algorithm. In the flow chart, different shapes/boxes are used to represent different statements in a program and all the shapes/boxes are connected in the order of program execution.
 
-![Flow Chart Symbols](images/FlowChart.gif)
+![Flow Chart Symbols](images/FlowChart.PNG)
 
 Example: A program to print even numbers in the range 1 to n.
 
@@ -398,7 +386,7 @@ Example: A program to print even numbers in the range 1 to n.
 
 Every programming language has some common concepts which are necessary to execute a program and get the desired output.
 
-## variables
+### Variables
 
 A variable is an entity that contains a value. The value can be a Number, Decimal, Character and String. As the name implies variables are not fixed and a new value can be stored anytime in the program. The naming convention for variables is camel case. in camel case the first letter is small and as words are added they are capitalized.
 
@@ -415,7 +403,7 @@ As mentioned in the example numbers and decimals are written without any quotes 
 
 <i><b>Note:</b>A programming language also contains constants that are fixed values</i>
 
-## Function and Method
+### Function and Method
 
 **Function:** A function is a reusable code. It can take the input and operate on the input and return data. It is the concept of functional programming language
 
@@ -423,7 +411,7 @@ As mentioned in the example numbers and decimals are written without any quotes 
 
 The naming convention for functions and methods is the camel case.
 
-## Class
+### Class
 
 A class is a template of methods and variables. The naming convention for the class is Pascal case. Every word in the name is capitalized.
 
@@ -544,8 +532,7 @@ SDLC is a business practice to analyze and improve the software development proc
 Organizations use a certain process to provide structure to their employees. This process provides an effective plan for various activities and it’s also applicable in software development life cycle (SDLC).
 Various people in the org uses SDLC such as business analysts, developers, software engineers. It’s useful as it helps create effective structure, innovate products, and helps collaborate across various development stages.
 
-<!-- Images -->
-![Markdown Logo](https://media.licdn.com/dms/image/C5612AQH1s2o6Otzxlw/article-cover_image-shrink_600_2000/0/1652127960997?e=2147483647&v=beta&t=GBWmqPVsPxYCgjuoipNUX6uduE0CTLg67ncE8q3LS9s)
+![7 Phases](images/7phases.png)
 
 ## The 7 stages of SDLC:
  
@@ -592,7 +579,7 @@ Similarly, the Waterfall model follows a strict set of procedures where each sta
 They also have a few drawbacks like lack of feedback and progress visibility, inflexibility to modify project scope or requirements once development has begun.
 
 <!-- Images -->
-![Markdown Logo](https://flexagon.com/wp-content/uploads/2020/11/Waterfall-Model-e1604695176261-1024x351.png)
+![Waterfall](images/waterfall.png)
 
 ## Iterative Model
 An iterative model is a type of model that uses an iterative process to improve its performance. This can involve repeatedly adjusting the model's parameters based on new data or feedback, in order to gradually improve its accuracy or performance.
@@ -601,7 +588,7 @@ An iterative model is a type of model that uses an iterative process to improve 
 In Agile methodology, teams work in short iterations called sprints, usually 2-4 weeks, where the team commits to delivering a specific set of features. The team holds daily stand-up meetings, called Scrums, to track progress and remove any obstacles. The team also has regular meetings, called Retrospectives, to review the previous sprint and plan for the next one.
 
 <!-- Images -->
-![Markdown Logo](https://static.javatpoint.com/difference/images/agile-vs-waterfall-model.png)
+![Agile](images/Agile.png)
 
 The Agile methodology is a flexible approach that allows teams to adapt to changing requirements and deliver working software quickly. It emphasizes collaboration, communication, and continuous improvement, which makes it well-suited for fast-paced, dynamic environments.
 
@@ -624,18 +611,12 @@ The most widely used agile frameworks are,
 -	1–4-week quick sprints
 -	Cross-functional and iterative in nature
 
-<!-- Images -->
-![Markdown Logo](https://media.licdn.com/dms/image/C5112AQG_Xtfrg1swGg/article-cover_image-shrink_600_2000/0/1527693800937?e=2147483647&v=beta&t=lsUIa5Mq6M49SEyUUcJzGCqLAwy-iRQeaTRha9w7rZ4)
-
 ### 2.	Kanban
 
 -	Supports continuous delivery
 -	Less focused on roles and events
 -	More focused on workflow rather than sprints
 -	Favors continuous task movement
-
-<!-- Images -->
-![Markdown Logo](https://www.integrify.com/site/assets/files/2473/kanban-project-management.png)
 
 ## Key Roles and Responsibilities:
 In Agile development, there are several key roles and responsibilities that are typically defined. These include:
@@ -656,9 +637,10 @@ In Scrum, there are several ceremonies that are held regularly to keep the devel
 * __Sprint Retrospective:__ a meeting held at the end of each sprint to reflect on the past sprint and identify ways to improve the process for the next sprint.
 * __Backlog Refinement:__ a meeting held periodically to review and prioritize the product backlog, ensuring that the items at the top of the backlog are ready for development in the next sprint.
    
-  # GIT
-   
-  # Versioning
+---
+
+# Git
+## Versioning
 
 Consider that you are working on an essay for school. Initially, you will create a draft and save it in your system, now after completing the initial draft you made some changes like adding new information, deleting irrelevant information and correcting grammatical errors in the file. After making all these changes you will save the document using save as and save it as draft 2. You might be thinking why should I replace the draft one with the updated draft?
 
@@ -733,7 +715,7 @@ To solve all the above problems and to add some additional functionalities versi
 
 for additional information refer to [semver](https://semver.org/)
 
-# Version Control System
+## Version Control System
 
 Version control systems are classified into two types.
 
@@ -744,16 +726,16 @@ Consider a scenario where one of your friends has a board game and to play that 
 
 To put it in technical terms, centralized VSC has a single central copy of the project and programmers will access and commit their changes from that copy. This arrangement is not preferred because if the central server fails, the entire project fails. A few examples of centralized VCS are  CVS Preforce and subversion.
 
-![Centralized](images/centralized.png)
+![Centralized](images/CentralizedVCS.PNG)
 
 In distributed VCS the codebase maintained in the server is copied to every individual developer's system. Even though a single user loses the data or a failure occurs in a single system, the code is preserved. A few examples of distributed VCS are GIT and Mercurial.
 
-![Distributed](images/distributed.png)
+![Distributed](images/DistributedVCS.PNG)
 
 
 for additional information refer to [git version contol](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
-# GIT
+## Git
 
 As explained GIT is a free and open-source distributed version control system. It is used to handle small to large projects with speed and efficiency.
 
@@ -822,8 +804,17 @@ git config --gloabl -e
 2. `--system`: The configuration set using system scope sets the non-default behaviour for every user of the system and all their repositories.
 3. `--local`: The configuration set using system scope sets the non-default behaviour for that specific repository.
 
+### Git bash workflow
 
-## Basic git commands
+![Git Workflow](images/GitWorkflow.PNG)
+
+**Working directory**: It represents the files and folders in your local system.
+
+**Staging:** Staging is an intermediate area between local files and the repository. The staging is used to check all the changes made and only the necessary changes are committed to the repository.
+
+**Repository:** GIT repository is the collection of all the files of projects of the versions. The local repository is the repository initialized in the local system. remote repository is the repository created in Git Hub, Git labs etc.
+
+## Basic git concepts
 
 ### git help
 
@@ -838,16 +829,6 @@ To get the short description run the following command
 ```
 git command-name --h
 ```
-
-### Git bash workflow
-
-![Git Workflow](images/GitRepo.png)
-
-**Working directory**: It represents the files and folders in your local system.
-
-**Staging:** Staging is an intermediate area between local files and the repository. The staging is used to check all the changes made and only the necessary changes are committed to the repository.
-
-**Repository:** GIT repository is the collection of all the files of projects of the versions. The local repository is the repository initialized in the local system. remote repository is the repository created in Git Hub, Git labs etc.
 
 ### Creating a Git repository
 
@@ -1037,7 +1018,7 @@ git push
 
 A branch is an independent line of development in git.
 
-![Git Branches](images/GitWorkflow.svg)
+![Git Branches](images/GitBranch.PNG)
 
 In every project, there is a main/master branch. It is the initial branch created along with the git repository. In git workflow, a develop or dev branch is used to protect the information in the main branch. Along with main and dev branches, feature branches are created by users to work on the project. Feature branches are branched from dev branches and all the changes made by feature branches are incorporated into the main branch via the dev branch but never directly to the main branch. 
 
@@ -1062,4 +1043,3 @@ git checkout branch-name
 ```
 
 For additional information about git commands refer to [git commands](https://git-scm.com/docs)
-  
