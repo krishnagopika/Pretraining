@@ -39,7 +39,8 @@
    - Agile related terms and tools
    - Story Pointing
    - Agile Framework
-   - Kanban
+     - Scrum 
+     - Kanban
    - Key Roles and Responsibilities
    - Scrum Ceremonies
 3. GIT
