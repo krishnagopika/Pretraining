@@ -253,7 +253,7 @@ The naming convention for functions and methods is the camel case.
 
 A class is a template of methods and variables. The naming convention for the class is Pascal case. Every word in the name is capitalized.
 
-## Operators
+### Operators
 
 ### Arthamatic
 
