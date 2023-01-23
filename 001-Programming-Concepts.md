@@ -1,4 +1,4 @@
-# Programming Fundamentals
+# Programming Concepts
 
 ## Programming
 In basic terms, programming is the process of creating a set of instructions that instructs the computer to perform a task.
