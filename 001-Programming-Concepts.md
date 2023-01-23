@@ -6,8 +6,10 @@ Consider an example where you input two values and want to find the sum of it.
 In this program, you are asked to enter two values. The two values are stored in variables `value1` and `value2`. Then, they are added using the `+` operator and the result is stored in the `result` variable.
 
 ```java
-result = value1 + value2;
-System.out.println(result);
+Step 1: Create variables `value1`, `value2`, and `result` to store the values.
+Step 2: Take input for `value1` and `value2` from user.
+Step 3: `result` = `value1` + `value2`.
+Setp 4: Print `result`.
 ```
 
 Then, the result is displayed.
