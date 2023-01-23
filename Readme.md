@@ -1,6 +1,6 @@
 # Table of Contents
 
-1. Programming Concepts
+1. [Programming Concepts](https://github.com/krishnagopika/Pretraining/blob/main/Programming-Concepts.md)
 
     - Programming
     - Programmer
