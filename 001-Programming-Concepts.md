@@ -2,8 +2,8 @@
 
 ## Programming
 In basic terms, programming is the process of creating a set of instructions that instructs the computer to perform a task.
-Consider an example where you input two values and want to find the sum of the two input values. 
-In this program, you are asked to enter two values. The two values are stored in variables `value1` and `value2`. Then, these two values are added using the `+` operator and the result is stored in the `result` variable.
+Consider an example where you input two values and want to find the sum of it. 
+In this program, you are asked to enter two values. The two values are stored in variables `value1` and `value2`. Then, they are added using the `+` operator and the result is stored in the `result` variable.
 
 ```java
 result = value1 + value2;
