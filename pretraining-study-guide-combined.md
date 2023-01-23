@@ -1,30 +1,31 @@
 # Programming Fundamentals
 
 ## Programming
-Let's consider a scenario where I want to be able to search for a particular product on an e-commerce website like flipkart, so that I can quickly find and buy the item I am looking for.
-So, the flipkart founders tried to address this customer problem by describing a specific goal of the user which is to search and buy a product online. This story can be used as 
-a starting point for the programming team to develop the necessary code and functionality for the flipkart's website. 
-So, they developed a program to provide a solution the users or customers like me.
+In basic terms, programming is the process of creating a set of instructions that instructs the computer to perform a task.
+Consider an example where you input two values and want to find the sum of the two input values. 
+In this program, you are asked to enter two values. The two values are stored in variables `value1` and `value2`. Then, these two values are added using the `+` operator and the result is stored in the `result` variable.
 
-In this story, programming is the process of creating a set of instructions that instructs the computer to perform a task.
+```java
+result = value1 + value2;
+System.out.println(result);
+```
+
+Then, the result is displayed.
 
 ## Programmer
-For the same scenario, let's look in detail as to what the programmer does to complete this website.
-As a programmer, they will create a search bar where the user can enter the product name, and also add filters like category, price, brand etc. Then using the user's input, they will query the database and return the matching products to the user. These are the basic functionalities needed to run an e-commerce website.
-
-In this story, a programmer is defining the solution for the user story and also how they are going to implement the solution for the user's goal.
+In basic terms, a programmer is defined as the person who builds the program to run and execute a specific task.
 
 ## Machine language
-As humans, we are equipped with the ability to learn multiple languages. Sadly, computers don't have that ability. They are designed in a way to read 0s and 1s. Yes, you are right. Computers convert everything we say into 0s and 1s and that's what we call as machine language. But imagine telling a computer to design a website just by inputing 0s and 1s. It's impossible for a human to do that, right? So, we designed several highly programmer friendly languages which can be converted in such a way that the computer can understand. How do they convert? We will be covering them shortly.
+As humans, we are equipped with the ability to learn multiple languages. Sadly, computers don't hlave that ability. They are designed in a way to read 0s and 1s. Yes, you are right. Computers convert everything we say into 0s and 1s and that's what we call as machine language. But imagine telling a computer to design a website just by inputing 0s and 1s. It's impossible for a human to do that, right? So, we designed several highly programmer friendly languages which can be converted in such a way that the computer can understand. How do they convert? We will be covering them shortly.
   
 ![Binary](images/Binary.png)
 
 In this story, a machine language is described as a\ language understood by a computer. It is very difficult to understand for humans, but it is the only thing that the computer can work with. All programs and programming languages eventually gets converted and runs in machine language.  
 
 ## Programming language
-Now, how do the same programmer develop such a website from sratch. He or she needs to communicate with the computer who doesn't speak our human language. So, instead of computer learning English. It's humans who have to learn the computer language, which is also called the programming language.
+Now, how do the same programmer develop  and execute a specified task. He or she needs to communicate with the computer who doesn't speak our human language. So, instead of computer learning English. It's humans who have to learn the computer language, which is also called the programming language.
 
-In this story, a programming language is described as a specific language in which a programmer is expected to solve user's problem.
+In this story, a programming language is described as a specific language in which a programmer is expected to solve a specific task.
 
 ## High-level to machine level conversion
 A high-level programming language is a programming language that is designed to be easily understood and used by humans. It is high-level because it is closer to human language and abstracts away many of the details of the underlying hardware. Examples of high-level languages include Python, Java, C++, and C#.
@@ -160,7 +161,7 @@ When approaching project objectives from the bottom up, a team will collaborate 
 For more information, visit,
    1. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming
    2. https://docs.oracle.com/javase/tutorial/java/concepts/index.html
-   
+
 ---
    
 ## Algorithm and Pseudocode
