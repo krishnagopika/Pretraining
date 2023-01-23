@@ -40,11 +40,11 @@ It's important to note that high-level programming languages have many features 
   
 ## Compiler
   
-In our scenario, our programmer who has the knowledge of creating a website using a programming language, creates a program in an environment which includes a compiler. It's the compiler's job to convert a human readable code to machine readable code for the computer to run the program.
+In our scenario, our programmer who has the knowledge of creating a program in an environment which includes a compiler. It's the compiler's job to convert a human readable code to machine readable code for the computer to run the program.
   
 ![Compiler](images/compiler.png)
 
-In this story, A compiler is a program that takes the source code written in a high-level language and converts it into machine code. This machine code can then be executed directly by the computer's processor.
+In basic terms, A compiler is a program that takes the source code written in a high-level language and converts it into machine code. This machine code can then be executed directly by the computer's processor.
   
 ## Interpreter
   
@@ -55,7 +55,7 @@ A compiled program runs faster than an interpreted program but interpreter direc
  
 While some prefer compiler over interpreter for its efficiency and faster execution, it's has a specific target and cannot be used cross-platform. To solve this portability issue, interpreter is used.
   
-In this story, An interpreter runs and executes the high-level code directly line by line, instead of converting it to machine language first.
+In basic terms, An interpreter runs and executes the high-level code directly line by line, instead of converting it to machine language first.
 
 ## Programming structure
 The next thing a programmer has to work on is the programming structure which is also described as the program layout. This can include things like indentation, commenting, and the use of functions and modules.
