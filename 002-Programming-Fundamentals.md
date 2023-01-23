@@ -45,7 +45,8 @@ Consider a program to take input of two numbers and print the sum.
 
 ```
 START
-READ a,b
+READ a
+READ b
 sum = a+b
 Print sum
 END
@@ -133,7 +134,6 @@ Print the numbers in the range 1 to n.
 ```
 START
 READ n
-
 FOR i=1 to n
    PRINT n
 END FOR
@@ -174,7 +174,8 @@ Example: Print product of two numbers
 
 ```
 Function print product
-    READ a, b
+    READ a
+    READ b
     product = a*b
     PRINT product
 END FUNCTION
