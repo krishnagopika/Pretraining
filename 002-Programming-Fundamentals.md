@@ -297,7 +297,7 @@ These values take the boolean value as input and return true or false as output.
 | Symbol | Operator    | Usage | Explanation                                                                                          |
 | ------ | ----------- | ----- | ---------------------------------------------------------------------------------------------------- |
 | &&     | logical and | a&&b  | If conditions a and b are true it returns true. If either of the condition is false it returns false |
-| ||     | logical or  | a||b  | If conditions a or b are true it returns true. If either of the condition is false it returns false  |
+| &#124;&#124;  | logical or  | a&#124;&#124;b | If conditions a or b are true it returns true. If either of the condition is false it returns false  |
 | !      | logical not | !a    | If a is true returns false and if a is false returns true                                            |
 
 ### Increment/Decrement
