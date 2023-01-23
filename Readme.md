@@ -1,6 +1,6 @@
 # Table of Contents
 
-1. Programming Fundamentals
+1. Programming Concepts
 
     - Programming
     - Programmer
@@ -19,6 +19,8 @@
         - Inheritance
         - Polymorphism
     - Top-down Approach vs Bottom-up Approach
+    
+2. [Programming Fundamentals](https://github.com/krishnagopika/Pretraining/blob/main/Programming-Fundamentals.md)
     - Algorithm and Pseudocode
     - Pseudocode Standards
     - Flow Chart
@@ -27,7 +29,7 @@
         - Function and Method
         - Class
         - Operators
-2. SDLC and Agile Fundamentals
+3. [SDLC and Agile Fundamentals](https://github.com/krishnagopika/Pretraining/blob/main/SDLC.md)
 
    - Introduction to SDLC
    - Overview of Software Development Life Cycle 
@@ -43,7 +45,7 @@
      - Kanban
    - Key Roles and Responsibilities
    - Scrum Ceremonies
-3. GIT
+4. [GIT](https://github.com/krishnagopika/Pretraining/blob/main/Git.md)
 
    - Versioning
    - Version Control System
