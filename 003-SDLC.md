@@ -3,14 +3,16 @@
    
  ## Introduction to SDLC
 
-Let’s start with our childhood days, as kids, we used to ask our parents for everything we see but almost all of them were not provided due to various reasons. So, we ask our parents for approval. Our parents then decide if it’s good or bad by considering lots of factors. Similarly, there are users who seek their manager’s approval to perform certain tasks for their project.
+Let’s start introducing you to SDLC with a packet of Biscuits. Yes, you heard that right. As we have a biscuit, we tend to wonder how it is being manufactured. What are the stages in the manufacturing process and that's what we are going to dive deep into. 
 
-For Example,
-As a user, I want to send my leave request to my manager.\
-As a manager, He/ She accepts and sends to HR for their reference.\
-As HR member, He/ She can either approve (as second authority) or just make a note of it.
+Firstly, there will be ingredient preparation stage, which includes measuring and mixing the ingredients (flour, sugar, butter, eggs, etc.)
+Then, Dough making process, where the preapred ingredients are mixed together to form a dough.
+Then, Dough shaping and cutting process, where the dough is shaped into the desired biscuit shape and cut into individual biscuits.
+Then, Baking stage, where the biscuits are baked in an oven until they are golden brown.
+Finally, Cooling and packing stage, where the biscuits are cooled and then packed for distribution and sale.
 
-Similarly, we have different stages involved in building software applications and we call them SDLC or Software Development Life Cycle.
+And this is how, we receive our biscuit packet and we enjoy having it. Don't we? 
+Similarly, we have different stages involved in building software applications, just like our biscuits and we call them SDLC or Software Development Life Cycle.
 
 SDLC is a business practice to analyze and improve the software development process as it helps increase the efficiency and quality of the product as well as meet the customer expectations.
 
@@ -59,7 +61,9 @@ For example: Beta version of Windows/MacOS application.
 *	Follows a defined path and framework to develop based on the product requirements. 
 
 ## Waterfall Model
-Let’s assume a scenario where we go to the doctor for chest pain, he then asks you about the depth, frequency, and other details of the pain. Based on his opinion, he’ll suggest you take a blood test, then x-ray scan, then probably provide some medicines. So, there is a set of procedures followed to deal with an ailment.
+In our biscuit manufacturing process, every stage waits for the previous stage to be completed. For example, you can't bake the dough without preparing and mixing the ingredients. Also, each stage does not involve themselves in other stages. 
+
+For example, If we add a bit of salt by mistake, we never know until its produced, packed and eaten by us, only then we raise a compliant that the biscuit is salty, right? This is what waterfall model is all about. The biscuit is completely produced and sold to customer like us to know that it's salty.
 
 Similarly, the Waterfall model follows a strict set of procedures where each stage directs to another in a sequential flow resulting in the conclusion just like a waterfall. These stages consist of documenting the requirements, designing the prototype, code development, code testing, deployment, and maintenance of the application.
 They also have a few drawbacks like lack of feedback and progress visibility, inflexibility to modify project scope or requirements once development has begun.
@@ -67,16 +71,21 @@ They also have a few drawbacks like lack of feedback and progress visibility, in
 <!-- Images -->
 ![Waterfall](images/waterfall.png)
 
-## Iterative Model
-An iterative model is a type of model that uses an iterative process to improve its performance. This can involve repeatedly adjusting the model's parameters based on new data or feedback, in order to gradually improve its accuracy or performance.
 
 ## Agile Model
+Now let's assume our biscuit manufacturing company introduces agile model, so in every stage there will be members who are responsible to check their respective stage and provide the best quality to the next stage and they are also responsible to acquire and send feedback if in case the outcome of the previous stage is not up to the expectation set by the team. 
+
+For example, after the dough making process, the dough turns out to be black, the dough shaping and cutting team can provide the feedback to the dough making team and send the dough back for correction. This cycle is repeated until the cooling and packing team is satisfied with the biscuit's quality, and the it is sent to the customers. In this way, it can save lot of time as well as produce high quality biscuits for the customers.
+
 In Agile methodology, teams work in short iterations called sprints, usually 2-4 weeks, where the team commits to delivering a specific set of features. The team holds daily stand-up meetings, called Scrums, to track progress and remove any obstacles. The team also has regular meetings, called Retrospectives, to review the previous sprint and plan for the next one.
 
 <!-- Images -->
 ![Agile](images/Agile.png)
 
 The Agile methodology is a flexible approach that allows teams to adapt to changing requirements and deliver working software quickly. It emphasizes collaboration, communication, and continuous improvement, which makes it well-suited for fast-paced, dynamic environments.
+
+## Iterative Model
+An iterative model is a type of model that uses an iterative process to improve its performance. This can involve repeatedly adjusting the model's parameters based on new data or feedback, in order to gradually improve its accuracy or performance. Let's not confuse ourselves with the definition as agile model follows iterative model.
 
 ### Agile related terms and tools
 
