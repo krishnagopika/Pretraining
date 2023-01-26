@@ -126,7 +126,7 @@ In addition to these core roles, there may also be other roles defined in an Agi
 ## Scrum ceremonies:
 In Scrum, there are several ceremonies that are held regularly to keep the development process on track and ensure that the team is working together effectively. These ceremonies include:
 
- __Sprint Planning:__ a meeting held at the beginning of each sprint to plan the work that will be completed during the sprint.
+* __Sprint Planning:__ a meeting held at the beginning of each sprint to plan the work that will be completed during the sprint.
 * __Daily Scrum:__ a short meeting held each day to review progress and plan for the next 24 hours of work.
 * __Sprint Review:__ a meeting held at the end of each sprint to review the work completed during the sprint, and to gather feedback from stakeholders.
 * __Sprint Retrospective:__ a meeting held at the end of each sprint to reflect on the past sprint and identify ways to improve the process for the next sprint.
