@@ -50,7 +50,7 @@ Various people in the org use SDLC such as business analysts, developers, and so
 
 ### Planning 
 
-In this phase, the primary task is to clearly define the scope and objective of the software application. They also define the resources and material expenses needed and set limits to prevent the project from deviating from its initial objective.\ 
+In this phase, the primary task is to clearly define the scope and objective of the software application. They also define the resources and material expenses needed and set limits to prevent the project from deviating from its initial objective.
 
 For example, collecting requirements to build a software application like teams, google meet. 
 
@@ -58,7 +58,7 @@ For example, collecting requirements to build a software application like teams,
 
 ### Define Requirements 
 
-In the design phase, the team models the way a software application will work. The inputs needed to develop the project are also defined as requirements.\ 
+In the design phase, the team models the way a software application will work. The inputs needed to develop the project are also defined as requirements.
 
 For example, a video player application would require the ability to display any videos or movies. 
 
@@ -68,7 +68,7 @@ For example, a video player application would require the ability to display any
 
 In this design and prototyping phase, the team simulates the way a software application will function. 
 
-Some stages of design include architecture, user interface, platforms, programming language, communication with related assets, and security of the program. \ 
+Some stages of design include architecture, user interface, platforms, programming language, communication with related assets, and security of the program. 
 
 For example, the design of any social media application is to connect and interact with friends. 
 
@@ -76,7 +76,7 @@ For example, the design of any social media application is to connect and intera
 
 ### Software Development 
 
-This phase is responsible for developing the code to run the application. During this phase, the team uses a version control system to identify code modifications which will aid the development team.\ 
+This phase is responsible for developing the code to run the application. During this phase, the team uses a version control system to identify code modifications which will aid the development team.
 
 For example, the development of the WhatsApp application. 
 
@@ -84,7 +84,7 @@ For example, the development of the WhatsApp application.
 
 ### Testing 
 
-The testing phase is crucial to identify and correct errors and bugs that can occur. These are documented and sent to developers to rebuild the code. They help in minimizing the faults and bugs noticed by end users and result in increased customer satisfaction.\ 
+The testing phase is crucial to identify and correct errors and bugs that can occur. These are documented and sent to developers to rebuild the code. They help in minimizing the faults and bugs noticed by end users and result in increased customer satisfaction.
 
 For example, testing a payment portal linked to a website. 
 
@@ -100,7 +100,7 @@ For example, a chatbot can be deployed to a website.
 
 ### Operations & Maintenance 
 
-In this phase, the software application is almost completed and ready to be used. \ 
+In this phase, the software application is almost completed and ready to be used. 
 
 For example, the Beta version of Windows/MacOS application. 
 
@@ -178,9 +178,9 @@ An iterative model is a type of model that uses an iterative process to improve 
 
  
 
-* __Scrum:__ It is a framework for managing and completing complex projects. It is an Agile methodology that is commonly used in software development and IT projects but can be applied to any project.\ 
+* __Scrum:__ It is a framework for managing and completing complex projects. It is an Agile methodology that is commonly used in software development and IT projects but can be applied to any project.
 
-* __Sprint:__ The goal of a sprint is to deliver a potentially releasable product increment, which means that the team should aim to deliver a working version of the product that meets the requirements of the product backlog items selected for the sprint.\ 
+* __Sprint:__ The goal of a sprint is to deliver a potentially releasable product increment, which means that the team should aim to deliver a working version of the product that meets the requirements of the product backlog items selected for the sprint.
 
 * __Velocity:__ It is a measure of how much work a team can accomplish during a sprint or a set period of time. It is typically measured in story points, which are a relative measure of the size and complexity of a piece of work. Velocity is used to predict how much work a team can accomplish in future sprints, and to help plan and prioritize work. 
 
