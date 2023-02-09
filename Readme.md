@@ -21,7 +21,7 @@
     - Pseudocode Standards
     - Flow Chart
     - Basic Programming Concepts
-    - 
+    
 3. [SDLC and Agile Fundamentals](https://github.com/krishnagopika/Pretraining/blob/main/003-SDLC.md)
 
    - Introduction to SDLC
@@ -36,7 +36,7 @@
    - Agile Framework
    - Key Roles and Responsibilities
    - Scrum Ceremonies
-   - 
+   
 4. [GIT](https://github.com/krishnagopika/Pretraining/blob/main/004-Git.md)
 
    - Versioning
