@@ -217,3 +217,7 @@ In Scrum, there are several ceremonies that are held regularly to keep the devel
 * __Sprint Retrospective:__ a meeting held at the end of each sprint that reflects the past sprint and identify ways to improve the process for the next sprint.
 
 * __Backlog Refinement:__ a meeting held periodically to review and prioritize the product backlog, ensuring that the items at the top of the backlog are ready for development in the next sprint.
+
+For more information, visit,
+
+1. https://www.youtube.com/watch?v=Gv6Esf4HQV8
