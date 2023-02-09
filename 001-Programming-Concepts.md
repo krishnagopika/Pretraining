@@ -3,9 +3,9 @@
 ## Programming
 In basic terms, programming is the process of creating a set of instructions that instructs the computer to perform a task. Consider an example where you input two values and want to find the sum of them. The two values are stored as variables value1 and value2. They are then added using the + operator and the result is stored in the result variable.
 
-Step 1: Create variables as value1, value2, and result to store the values.
-Step 2: Take the input for value1 and value2 from the user.
-Step 3: result = value1 + value2.
+Step 1: Create variables as value1, value2, and result to store the values.\
+Step 2: Take the input for value1 and value2 from the user.\
+Step 3: result = value1 + value2.\
 Step 4: Print the result.
 
 The result is now displayed. The above example is the set of instructions given to a computer to add two numbers. The instructions will be given in the form of a program. The art of writing a program is called programming.
