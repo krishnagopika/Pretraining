@@ -104,7 +104,6 @@ In this phase, the software application is almost completed and available to the
 
 For example, the continuous and updated functions/features released by chat tools like Teams.
 
-
 <!-- UL --> 
 
 ## Advantages of SDLC 
@@ -116,8 +115,6 @@ For example, the continuous and updated functions/features released by chat tool
 *	Increased clarity about requirements and business prospects that end users will benefit from. 
 
 *	Follows a defined path and framework to develop based on the product requirements.  
-
- 
 
 ## Waterfall Model 
 
@@ -162,8 +159,6 @@ An iterative model is a type of model that uses an iterative process to improve 
 
 * __Agile tools:__ Most used agile tools are Jira, Trello, and Microsoft Azure DevOps. The best tool for a specific team or project will depend on the specific needs and requirements.
 
- 
-
 ## Story pointing: 
 
 Story pointing is a method used in Agile development to estimate the relative size and complexity of a user story, or a functional requirement for a product. The goal of story pointing is to provide a consistent, standardized way for the development team to understand the scope of a user story and to plan and prioritize the work for a sprint or release.
@@ -182,10 +177,8 @@ The most widely used agile frameworks are,
 
 -	Cross-functional and iterative in nature 
 
-
 ### 2.	Kanban 
  
-
 -	Supports continuous delivery 
 
 -	Less focused on roles and events 
@@ -199,7 +192,7 @@ The most widely used agile frameworks are,
 In Agile development, there are several key roles and responsibilities that are typically defined. These include: 
 
 * __Product Owner:__ Responsible for defining and prioritizing the features and requirements of the product that is being developed.
-* 
+
 * __Scrum Master:__ Acts as a facilitator for the development team and helps to remove any obstacles that may be impeding progress.
 
 * __Development Team:__ Responsible for building and delivering the product.
