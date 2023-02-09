@@ -16,6 +16,7 @@ In basic terms, programming is the process of creating a set of instructions tha
 
 ## Machine language
 As humans, we are equipped with the ability to learn multiple languages. Sadly, computers don't have that ability. They are designed in a way to read 0s and 1s (these 0 and 1 are called binaries). Yes, you are right. Computers convert everything we input as 0s and 1s and that's what we call a machine language (here, instructions to the computer will be given using binaries). 
+
 But imagine instructing a computer to design a website just by inputting 0s and 1s. It's impossible for a human to do that, right? So, we designed several high-level programmer-friendly languages which can be converted in a way that the computer can understand. How do they convert? We will be covering them shortly.
 
   
@@ -78,13 +79,17 @@ This can be accomplished using a procedural programming approach, in which the p
 ## Functional programming
    
 Functional programming is an approach used to organise a set of codes as a function. It is a way of modularization in software programming. The functions are key in the functional programming approach where functions will receive inputs and return an output without having any side effects on the inputs given. Here the program is built by applying and composing functions.
+
 Basically, the function isolates a set of tasks otherwise required by the programmer to implement. Being a programmer in the functional programming approach should know how to use the function by passing the input and getting the output. This is like mathematical functions where it will have the output for the given inputs, without impacting the current program. 
+
 For example, if we want to convert Fahrenheit to Celsius, we should know how to pass the Fahrenheit value as input and expect the Celsius value as output, without knowing or analysing how the conversion happens. This gives a certain level of abstraction when we use third-party functions. 
 
 
 ## Object-oriented programming
 Now that we have seen programs that are processed based on functions and procedures, we also have programs that run based on objects. Yes, they are more detail-oriented and help in data security and integrity.
+
 In the programming world, we define it as a paradigm that is based on the concept of "objects", which are self-contained units of data and functionality. In OOP, objects are created from classes, which define their properties and methods. Objects can interact with each other by sending messages (method calls) and can change their internal state as a result.
+
 OOP is commonly used in many programming languages like Java, C++, Python, C#, etc. OOP is useful for modelling real-world objects and systems, and for creating reusable and maintainable code.
 
    
@@ -147,6 +152,7 @@ Polymorphism is of two types:
 ## Top-down apporach vs Bottom-up approach
    
 In our scenario, the top-down approach to management is a strategy in which the decision-making process occurs at the highest level and is then communicated to the rest of the team. This style can be applied at the project, team, or even at the company level, and can be adjusted according to the group’s needs.
+
 When approaching project objectives from the bottom-up approach, a team will collaborate across all levels to determine what steps need to be taken to achieve overall goals. The bottom-up approach is newer and more flexible than the more formal top-down strategy, which is why it’s more commonly found in industries where disruption and innovation are a priority.
 
    
