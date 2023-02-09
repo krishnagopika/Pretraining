@@ -220,7 +220,7 @@ In Scrum, there are several ceremonies that are held regularly to keep the devel
 * __Daily Scrum:__ a short meeting conducted every day to review the progress and plan for the next 24 hours of work.
 
 * __Sprint Review:__ a meeting held at the end of each sprint to review the work completed during the sprint, and to gather feedback from stakeholders.
-* 
+
 * __Sprint Retrospective:__ a meeting held at the end of each sprint that reflects the past sprint and identify ways to improve the process for the next sprint.
-* 
+
 * __Backlog Refinement:__ a meeting held periodically to review and prioritize the product backlog, ensuring that the items at the top of the backlog are ready for development in the next sprint.
