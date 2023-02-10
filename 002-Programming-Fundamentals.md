@@ -245,7 +245,7 @@ As mentioned in the example, numbers and decimals are written without any quotes
 The naming convention for functions and methods is the camel case. 
 ### Class
 
-A class is a template of methods and variables. The naming convention for the class is Pascal’s case. Every letter in the name is capitalized. 
+A class is a template of methods and variables. The naming convention for the class is Pascal’s case. Every first letter of a word is capitalized. 
 
 ### Operators
 
