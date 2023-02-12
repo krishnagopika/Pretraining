@@ -51,6 +51,15 @@ END
 ```
 In the above statement, lines 2,3 and 4 are sequence statements. 
 
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
+
+```java
+int a = sc.nextInt();
+int b = sc.nextInt();
+int sum = a+b;
+System.out.println(sum);
+```
+
 2. Conditional (IF-THEN-ELSE): It is used to choose a course of action based on a condition. In programming languages, we have similar syntaxes like `if and else`. 
 ```
 IF condition THEN
@@ -264,17 +273,47 @@ PROGRAM name
   FUNCTION fn
 END
 ```
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode can be written in C language in a program file named "pragram.c" as following:
+
+```C
+void functionF1(){
+}
+void functionF2(){
+}
+void functionF3(){
+}
+.
+.
+.
+void functionFn(){
+}
+```
+
 
 8.Exception handling: An exception is an event that disrupts the normal flow of the program. When an exception occurs in a program, a block of code is executed in response to the exception. 
 ```
 START
   statements
 EXCEPTION
-    WHEN exception type
+    WHEN exception type1
         statements to handle exceptions
-    WHEN exception type
+    WHEN exception type2
         statements to handle exceptions
 END
+```
+
+The above pseudocode can be written is java using try and catch as following:
+
+```
+try{
+    //statements
+}
+catch(ExceptionType1 type1){
+    //statements to handle exception
+}
+catch(ExceptionType2 type2){
+    //statements to handle exception
+}
 ```
 
 There are no rules for writing a pseudocode. It is meant to be human-readable, and it should convey the right meaning. 
