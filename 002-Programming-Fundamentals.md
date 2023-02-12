@@ -74,6 +74,20 @@ END IF
 
 END
 ```
+
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
+
+```java
+if(marks>=60)
+{
+    System.out.println("PASSED");
+}
+else{
+    System.out.println("FAILED");
+}
+
+```
+
 3. CASE: It is used to execute sequences based on conditions. All the conditions are mutually exclusive. In programming languages, we have a similar syntax for `switch`. 
 
 ```
@@ -103,6 +117,7 @@ OTHERS
    PRINT "Please enter the score in the range 0 to 100 "
 END CASE  
 ```
+
 4. Repetitive (Loop): It is used to execute a sequence multiple times until a condition fails. 
 
 - WHILE: It is used to specify a loop with a condition at the top. In programming languages, we use a while loop similar to this. 
@@ -122,6 +137,17 @@ PRINT sum
 END
 ```
 
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
+
+```java
+int n = sc.nextInt();
+while(n>0){
+     sum=sum+n;
+     n--;
+}
+System.out.println(sum);               
+```
+
 -FOR: It is used to create a loop for iterating the sequence of a specific number of times. It is also called a counting loop. In programming languages, we use `for` loop similar to this. 
 
 Example:
@@ -137,6 +163,16 @@ END FOR
 END
 ```
 
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
+
+```java
+int n = sc.nextInt();
+for(int i=1; i<=n;i++)
+{
+    System.out.println(i);
+}
+```
+
 - REPEAT-UNTIL: It is similar to a while loop, but the condition is placed at the bottom of the loop. This is implemented in programming languages, as a `do-while` loop. 
 
 Example: A program to print the sum of numbers in the range 1 to n. 
@@ -150,6 +186,17 @@ REPEAT
 UNTIL n is equal to zero
 END
 ```
+
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
+
+```java
+int n = sc.nextInt();
+do{
+    sum=sum+n;
+    n--;
+}
+while(n>0);
+```
 5. Nested constructs: The constructs can be embedded within each other in a program. 
 Example: Print even numbers in the range 1 to n 
 
@@ -162,6 +209,18 @@ FOR i= 1 to n:
   END IF
 END FOR
 END
+```
+
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
+
+```java
+for(int i=1;i<=n;i++)
+{
+    if(i%2==0)
+    {
+       System.out.println(i);
+    }
+}
 ```
 
 6. FUNCTION: In programming, every task is written as a function. A function can be called multiple times in a program. To put it in simple terms, a function is a reusable block of code. 
