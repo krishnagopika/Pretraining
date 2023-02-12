@@ -304,7 +304,7 @@ END
 
 The above pseudocode can be written is java using try and catch as following:
 
-```
+```java
 try{
     //statements
 }
