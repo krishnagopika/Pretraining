@@ -273,7 +273,7 @@ PROGRAM name
   FUNCTION fn
 END
 ```
-The same pseudocode can be easily re-written as code in any programming language. The above pseudocode can be written in C language in a program file named "pragram.c" as following:
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode can be written in C language in a program file named "Program.c" as following:
 
 ```C
 void functionF1(){
