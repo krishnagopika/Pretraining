@@ -103,19 +103,37 @@ OTHERS:
 END CASE
 ```
 
-Example: Print the grade for the given exam score. 
+Example: Print the score range for the given grade. 
 
 ```
 START
-CASE score of:
-    greater than or equal to 90: PRINT "A"
-    greater than or equal to 80 and less than 90: "B"
-    greater than or equal to 70 and less than 80: "C"
-    greater than or equal to 60 and less than 70: "D"
-    less than 60: "F"
+CASE grade of:
+    A: PRINT "greater than or equal to 90"
+    B: PRINT "greater than or equal to 80 and less than 90"
+    C: PRINT "greater than or equal to 70 and less than 80"
+    D: PRINT "greater than or equal to 60 and less than 70"
+    F: PRINT "less than 60"
 OTHERS
-   PRINT "Please enter the score in the range 0 to 100 "
+   PRINT "Please enter a valid grade "
 END CASE  
+```
+
+The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
+
+```java
+switch(grade){
+            case 'A': System.out.println("greater than or equal to 90");
+                      break;
+            case 'B': System.out.println("greater than or equal to 80 and less than 90");
+                      break;
+            case 'C': System.out.println("greater than or equal to 70 and less than 80");
+                      break;
+            case 'D': System.out.println("greater than or equal to 60 and less than 70");
+                      break;
+            case 'F': System.out.println("less than 60");
+                      break;
+            default: System.out.println("Please enter a valid grade");
+}
 ```
 
 4. Repetitive (Loop): It is used to execute a sequence multiple times until a condition fails. 
