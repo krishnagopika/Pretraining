@@ -140,7 +140,6 @@ END
 The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
 
 ```java
-int n = sc.nextInt();
 while(n>0){
      sum=sum+n;
      n--;
@@ -166,7 +165,6 @@ END
 The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
 
 ```java
-int n = sc.nextInt();
 for(int i=1; i<=n;i++)
 {
     System.out.println(i);
@@ -190,7 +188,6 @@ END
 The same pseudocode can be easily re-written as code in any programming language. The above pseudocode in java is as following:
 
 ```java
-int n = sc.nextInt();
 do{
     sum=sum+n;
     n--;
